@@ -31,6 +31,7 @@ button
   font-size: 1.5em;
   box-shadow: 3px 3px 3px black;
   position: relative;
+  line-height: 100px;
 }
 .square::before
 {
@@ -39,7 +40,7 @@ button
   width: 103%;
   height: 0;
   background-color: dimgray;
-  transition: all 0.2s linear;
+  transition: all 0.4s linear;
   position: absolute;
   z-index: -1;
   border-radius: inherit;
@@ -52,7 +53,7 @@ button
   width: 0;
   height: 103%;
   background-color: dimgray;
-  transition: all 0.2s linear;
+  transition: all 0.4s linear;
   position: absolute;
   z-index: -1;
   border-radius: inherit;
@@ -79,7 +80,11 @@ button
 
 #playGrid
 {
-  width: 300px;
-  height: 300px;
   z-index: 1;
+}
+
+h1
+{
+  line-height: 3rem;
+  height: 3rem;
 }
