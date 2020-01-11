@@ -19,6 +19,10 @@ const game = (()=>
         {
           return true;
         }
+        if(gameArr[i] == gameArr[i+3] && gameArr[i] == gameArr[i+6] && gameArr[i]!="")
+        {
+          return true;
+        }
       }
       if ((gameArr[4] != "") && ((gameArr[0] == gameArr[4] && gameArr[4] == gameArr[8]) || (gameArr[2] == gameArr[4] && gameArr[4] == gameArr[6])))
       {
